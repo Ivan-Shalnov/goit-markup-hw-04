@@ -211,8 +211,6 @@ body {
 }
 .advatages-icon-cont {
   padding: 25px 0px;
-  display: flex;
-  justify-content: center;
   margin-bottom: var(--standart-gap);
 
   background: var(--our-team-background);
@@ -220,6 +218,7 @@ body {
 }
 .advatages-icon {
   display: block;
+  margin: 0 auto;
 }
 .advantages-item-title {
   margin: 0;
@@ -314,8 +313,6 @@ body {
   justify-content: center;
 }
 .clients-list-item {
-  display: flex;
-  justify-content: center;
   flex-basis: 170px;
   padding: 16px 0;
   border: 1px solid var(--icon-color);
@@ -326,6 +323,7 @@ body {
 }
 .clients-list-logo {
   display: block;
+  margin: 0 auto;
 }
 /* ----------OUR PROJECTS---------- */
 .filter-list {
